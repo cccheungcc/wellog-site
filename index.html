@@ -8,6 +8,9 @@
 <meta property="og:title" content="Wellog — Daily health log">
 <meta property="og:description" content="Scan a meal, log a glass of water, check your blood pressure — then see the week at a glance.">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://cccheungcc.github.io/wellog-site/icon.png">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
 <style>
 :root{
   --bg:#f2f4f8; --card:#fff; --ink:#12151a; --muted:#5b6472;
@@ -23,8 +26,8 @@ body{margin:0;background:var(--bg);color:var(--ink);
   -webkit-font-smoothing:antialiased}
 .wrap{max-width:1000px;margin:0 auto;padding:0 24px}
 header{padding:72px 0 56px;text-align:center}
-.logo{display:inline-flex;align-items:center;gap:10px;font-weight:800;font-size:20px;letter-spacing:-.02em;margin-bottom:40px}
-.logo span{width:30px;height:30px;border-radius:9px;background:var(--accent);display:grid;place-items:center;color:#fff;font-size:16px}
+.appicon{width:112px;height:112px;border-radius:25px;display:block;margin:0 auto 28px;
+  box-shadow:0 12px 34px rgba(0,0,0,.16);border:1px solid var(--line)}
 h1{font-size:clamp(34px,6vw,58px);line-height:1.05;letter-spacing:-.03em;margin:0 0 20px;font-weight:800}
 .sub{font-size:clamp(17px,2.4vw,21px);color:var(--muted);max-width:620px;margin:0 auto 32px}
 .badge{display:inline-block;padding:13px 26px;border-radius:999px;background:var(--charcoal);color:#fff;
@@ -50,7 +53,7 @@ footer nav{display:flex;gap:22px;flex-wrap:wrap;margin-bottom:18px}
 <div class="wrap">
 
 <header>
-  <div class="logo"><span>W</span>Wellog</div>
+  <img class="appicon" src="icon.png" width="112" height="112" alt="Wellog app icon">
   <h1>Log your day.<br>See the week.</h1>
   <p class="sub">Scan a meal, log a glass of water, check your blood pressure — then see how the week actually went. A simple daily health log for iPhone.</p>
   <a class="badge" href="#">Coming soon to the App Store</a>
